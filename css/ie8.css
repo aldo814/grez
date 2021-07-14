@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*common*/
+.top_setting .top_setting_right > li:first-child + li a{color: #888;font-size: 13px;display: block;line-height: 30px;height: 30px}
+.top_setting .top_setting_right > li:first-child + li a .item{display:inline-block;vertical-align: middle;background:  url(../images/setting_icon.png) no-repeat center;width: 14px;height: 30px;margin-right: 5px}
+
+/*main*/
+ /*.main_cont .ptl*/
+.main_cont .ptl .ptl_top {overflow: hidden}
+/*
+.ptl_last {margin-right: 0 !important}
+.ptl_first {margin-left: 0 !important}*/
+	
+/*ptl ptl01 ptl_blue*/
+.main_cont .ptl.ptl01.ptl_blue{border-radius: 10px;}
+.main_cont .ptl_blue{behavior: url(../js/PIE.js);}
+.main_cont .ptl_blue .ptl_lit .harf {width: 47%}
+.main_cont .ptl_blue .ptl_lit .harf.mr {margin-right: 6%}
+	
+/*.main_cont .ptl_add.ptl P*/
+.main_cont .ptl_add.ptl P {width: 100%;margin-top: -30px;left: 0}	 
+	
+.main_cont .ptl .ptl_calender_wrap .calender_box {margin-right: 8px}
+.main_cont .ptl .ptl_calender_wrap .calender_box .calender_btn {margin-top: -6px}
+	
+/*.main_cont .ptl .quick_service LI*/
+.main_cont .ptl .quick_service LI{margin-right: 0}
+.main_cont .ptl .quick_service LI:first-child{margin-right: 6%}
+.main_cont .ptl .book_rental .book_rental_icon A SPAN{font-size: 12px}
+.main_cont .ptl .ptl_event_wrap .ptl_event_list {padding-right: 15px}
+	
+/*.bullet_list LI*/
+.bullet_list li {margin-bottom: 8px !important}
+.main_cont .ptl .today_list LI {margin-bottom: 10px !important}
+
+/*layout*/
+.gray_select {background-color: #eee;background-image: url(../images/select_arrow.png);background-repeat: no-repeat;background-position: 90%}
+	select::-ms-expand { display: none; }
+	
+/*서브 bcNav*/
+.sub_wrap .sub_cont .bcNav LI.on a{font-weight: 500;color: #284f6c}
+.sub_value{font-size: 12px;}
+
+
+
+
+/*게시판 view*/
+.borad_comment .borad_comment_write .textarea ,.borad_comment_list .rp_txt .textarea{width: 93%}
+.borad_comment .borad_comment_write .cw_btn ,.borad_comment_list .rp_txt .rp_btn{width: 90px !important}
+	
+/*.sub_wrap .container*/
+.sub_wrap .container {min-height: 758px}

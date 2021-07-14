@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=1920, user-scalable=yes">
+	<title>광양만권경제자유구역청</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/selectordie.css">
+	<link rel="stylesheet" href="css/jquery.scrollbar.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/selectordie.js"></script>
+	<script src="js/html5.js"></script>
+	<script src="js/run.js"></script>
+	<script src="js/jquery.scrollbar.min.js"></script>
+	<!--[if lte IE 8]> 
+	<link rel="stylesheet" href="css/ie8.css">
+	<![endif]-->
+	<!--[if lte IE 8]> 
+    <script src="js/selectivizr-min.js"></script>
+<![endif]-->
+    <!--[if lte IE 8]> 
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+    <!--[if lte IE 8]> <script src="js/placeholder.js"></script><![endif]-->
+</head>
+
+<body>
+	<!--top_open-->
+	<div class="top_open">
+		<a href="#">
+			열기
+		</a>
+	</div>
+	<!--top_open-->
+	<!--top_setting-->
+	<div class="top_setting">
+		<!--wrap-->
+		<div class="wrap">
+			<!--top_setting_left-->
+			<ul class="top_setting_left">
+				<li>
+					<a href="#"><span class="item01"></span>일정</a>
+				</li>
+				<li>
+					<a href="#"><span class="item02"></span>설문조사</a>
+				</li>
+				<li>
+					<a href="#"><span class="item03"></span>도서신청</a>
+				</li>
+				<li>
+					<a href="#"><span class="item04"></span>메모</a>
+				</li>
+				<li>
+					<a href="#"><span class="item05"></span>조직도</a>
+				</li>
+				<li>
+					<a href="#"><span class="item06"></span>도움말</a>
+				</li>
+			</ul>
+			<!--//top_setting_left-->
+			<!--top_setting_right-->
+			<ul class="top_setting_right">
+				<li>
+					<div class="wrap-drop" id="noble-gases">
+						<span class="drop_active_txt">예약관리 (<span class="blue">999</span>건)</span>
+						<ul class="drop">
+							<li class="selected"><a>예약관리 (<span class="blue">999</span>건)</a></li>
+							<li><a>예약관리 (<span class="blue">12</span>건)</a></li>
+							<li><a>예약관리 (<span class="blue">5</span>건)</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<span class="item"></span>
+						메인화면설정
+					</a>
+				</li>
+			</ul>
+			<!--top_setting_right-->
+		</div>
+		<!--//wrap-->
+	</div>
+	<!--//top_setting-->
+	<!--#header-->
+	<header id="header">
+		<!--wrap-->
+		<div class="wrap">
+			<h1 class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="광양만권경제자유구역청">
+				</a>
+			</h1>
+			<!--gnb-->
+			<ul class="gnb">
+				<li><a href="#">전자결재</a></li>
+				<li><a href="#">복무관리</a></li>
+				<li><a href="#">ERP</a></li>
+				<li><a href="#">통합게시판</a></li>
+				<li><a href="#">투자유치현황판</a></li>
+				<li class="quick"><a href="#">빠른메뉴</a></li>
+			</ul>
+			<!--//gnb-->
+
+			<div class="member_wrap">
+				<p class="member"><span class="mbIco"></span>
+					<span class="blue bold">류정아 주무관</span>님 (행정지원팀)
+				</p>
+				<a href="#" class="btn green_btn">로그아웃</a>
+				<a href="#" class="btn blue_btn">개인정보수정</a>
+			</div>
+		</div>
+		<!--//wrap-->
+	</header>
+	<!--//#header-->
+	<!--sub_wrap-->
+	<div class="sub_wrap">
+		<!--wrap-->
+		<div class="wrap">
+			<!--container-->
+			<div class="container">
+				<div class="snb_wrap">
+					<h1 class="snb_tit">
+						회의실 예약
+					</h1>
+					<!--snb_drop-->
+					<ul class="snb_drop">
+						<!--dep1-->
+						<li class="dep1 on">
+							<a href="#">예약현황</a>
+						</li>
+						<!--//dep1-->
+						<!--dep1-->
+						<li class="dep1">
+							<a href="#">승인현황</a>
+						</li>
+						<li class="dep1">
+							<a href="#">회의실관리</a>
+						</li>
+					</ul>
+					<!--//snb_drop-->
+				</div>
+				<!--//snb_wrwap-->
+				<!--sub_cont-->
+				<div class="sub_cont">
+					<!--sub_cont_inner-->
+					<div class="sub_cont_inner">
+						<!--bcNav-->
+						<ul class="bcNav">
+							<li class="home">
+								<a href="#">메인</a>
+							</li>
+							<li>
+								<a href="#">일정</a>
+							</li>
+							<li>
+								<a href="#">월</a>
+							</li>
+						</ul>
+						<!--bcNav-->
+						<!--sub_tit-->
+						<div class="sub_tit">
+							<h2>예약현황</h2>
+						</div>
+						<!--//sub_tit-->
+					<!--float_wrap-->
+                        <div class="float_wrap">
+                            <div class="float_left">
+                                <!--sub_search-->
+                                <div class="sub_search">
+                                    <select class="round_select">
+                                        <option>전체회의실</option>
+                                        <option>전체회의실</option>
+                                    </select>
+                                    <div class="calender_list">
+                                        <div class="calender_box">
+                                            <input type="text" id="calender" name="calender">
+                                            <label class="calender_btn" for="calender">달력보기</label>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="sub_btn btn_navy">검색</a>
+                                    
+                                </div>
+                                <!--//sub_search-->
+                            </div>
+                            <!--//float_left-->
+                            <!--float_right-->
+                            <div class="float_right">
+                                <a href="#" class="sub_btn btn_blue">등록</a>
+                            </div>
+                            <!--//float_right-->
+                        </div>
+                        <!--//float_wrap-->
+					<!--calendar_table_wrap-->
+					<div class="calendar_table_wrap">
+						<!--calendar_top-->
+						<div class="calendar_top">
+							<div class="ct_left">
+								<a href="#" class="sub_btn btn_blue_border">Today</a>
+							</div>
+							<div class="ct_center">
+								<a href="#" class="prev">
+									<img src="images/slide_prev.png" alt="이전 달">
+								</a>
+								<p class="ct_date">
+									2020년 12월
+								</p>
+								<a href="#">
+									<img src="images/slide_next.png" alt="다음 달">
+								</a>
+							</div>
+							<div class="ct_right">
+								<ul class="btn">
+									<li>
+										<a href="#" class="sub_btn btn_sky">월(Month)</a>
+									</li>
+									<li>
+										<a href="#" class="sub_btn btn_white">주(Week)</a>
+									</li>
+									<li>
+										<a href="#" class="sub_btn btn_white">일(Day)</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--//calendar_top-->
+						<table class="calendar_table">
+							<caption>월별 일정</caption>
+							<colgroup>
+							</colgroup>
+							<thead class="cd_top">
+								<tr>
+									<td>
+										<table>
+											<thead>
+												<tr>
+													<td class="cd_header cd_sun">일</td>
+													<td class="cd_header">월</td>
+													<td class="cd_header">화</td>
+													<td class="cd_header">수</td>
+													<td class="cd_header">목</td>
+													<td class="cd_header">금</td>
+													<td class="cd_header cd_sat">토</td>
+													
+												</tr>
+											</thead>
+										</table>
+									</td>
+								</tr>
+							</thead>
+							<!--cd_body-->
+							<tbody class="cd_body">
+								<tr>
+									<td class="cd_wideget-content">
+										<div class="cd-day-grid-container">
+											<div class="cd-day-grid">
+											<!--cd-row-->
+												<div class="cd-row">
+												<!--cd-bg-->
+													<div class="cd-bg">
+														<table>
+															<tr>
+															<td class="bln"></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td class="brn"></td>
+															</tr>
+														</table>
+													</div><!--//cd-bg-->
+													<!--div_date-->
+													<div class="cd_date">
+													<table>
+														<thead>
+															<tr>
+																<th class="last-date">29</th>
+																<th class="last-date">30</th>
+																<th>1</th>
+																<th>2</th>
+																<th>3</th>
+																<th>4</th>
+																<th class="date_sat">5</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td><a href="#" class="ograng_event">신청  09:30~11:00 소회의실</a>
+																<a href="#" class="blue_event">반려  14:00~16:00 대회의실</a>
+																</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+														</tbody>
+														</table>
+													</div>
+													<!--//div_date-->
+												</div><!--//cd-row-->
+												<!--cd-row-->
+												<div class="cd-row">
+												<!--cd-bg-->
+													<div class="cd-bg">
+														<table>
+															<tr>
+															<td class="bln"></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td class="brn"></td>
+															</tr>
+														</table>
+													</div><!--//cd-bg-->
+													<!--div_date-->
+													<div class="cd_date">
+													<table>
+														<thead>
+															<tr>
+																<th class=" date_sun">6</th>
+																<th>7</th>
+																<th>8</th>
+																<th>9</th>
+																<th>10</th>
+																<th>11</th>
+																<th class="date_sat">12</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+														</tbody>
+														</table>
+													</div>
+													<!--//div_date-->
+												</div><!--//cd-row-->
+												<!--cd-row-->
+												<div class="cd-row">
+												<!--cd-bg-->
+													<div class="cd-bg">
+														<table>
+															<tr>
+															<td class="bln"></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td class="brn"></td>
+															</tr>
+														</table>
+													</div><!--//cd-bg-->
+													<!--div_date-->
+													<div class="cd_date">
+													<table>
+														<thead>
+															<tr>
+																<th class=" date_sun">13</th>
+																<th>14</th>
+																<th>15</th>
+																<th>16</th>
+																<th>17</th>
+																<th>18</th>
+																<th class="date_sat">19</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+														</tbody>
+														</table>
+													</div>
+													<!--//div_date-->
+												</div><!--//cd-row-->
+												<!--cd-row-->
+												<div class="cd-row">
+												<!--cd-bg-->
+													<div class="cd-bg">
+														<table>
+															<tr>
+															<td class="bln"></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td>
+															</td>
+															<td></td>
+															<td class="brn"></td>
+															</tr>
+														</table>
+													</div><!--//cd-bg-->
+													<!--div_date-->
+													<div class="cd_date">
+													<table>
+														<thead>
+															<tr>
+																<th class=" date_sun">20</th>
+																<th>21</th>
+																<th>22</th>
+																<th>23</th>
+																<th>24</th>
+																<th>25</th>
+																<th class="date_sat">26</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+														</tbody>
+														</table>
+													</div>
+													<!--//div_date-->
+												</div><!--//cd-row-->
+												<!--cd-row-->
+												<div class="cd-row">
+												<!--cd-bg-->
+													<div class="cd-bg">
+														<table>
+															<tr>
+															<td class="bln"></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td class="brn"></td>
+															</tr>
+														</table>
+													</div><!--//cd-bg-->
+													<!--div_date-->
+													<div class="cd_date">
+													<table>
+														<thead>
+															<tr>
+																<th class=" date_sun">27</th>
+																<th>28</th>
+																<th>29</th>
+																<th>30</th>
+																<th>31</th>
+																<th class="last-date">1</th>
+																<th class="date_sat last-date">2</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td colspan="2"><a href="#" class="gray_event">사용불가 소회의실 202</a></td>
+																<td></td>
+															</tr>
+														</tbody>
+														</table>
+													</div>
+													<!--//div_date-->
+												</div><!--//cd-row-->
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+							<!--//cd_body-->
+						</table>
+						<!--calendar_guide-->
+						<div class="calendar_guide">
+							<ul>
+								<li>
+									<span class="guide">GUIDE</span>등록 및 조회방법 – 해당 날짜와 시간의 네모칸을 선택하여 등록 및 조회를 하시기 바랍니다.
+								</li>
+								<li>
+									<span class="guide">GUIDE</span>아이콘을 클릭하면 상세내역을 보실 수 있습니다.
+									<ul class="guide_list">
+										<li class="gl_ogrange">
+											타인예약
+										</li>
+										<li class="gl_blue">
+											본인예약
+										</li>
+										<li class="gl_gray">
+											사용불가
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div><!--//calendar_guide-->
+					</div>
+					<!--//calendar_table_wrap-->
+					</div>
+					<!--//sub_cont_inner-->
+				</div>
+				<!--//sub_cont-->
+				<!--layer_popup-->
+                        <div class="layer_popup w800" style="top: 50%;left: 50%;transform: translate(-50%,-50%)">
+                            <h5 class="layer_tit">
+                                예약하기
+                                <a href="#" class="close">닫기</a>
+                            </h5>
+                            <!--layer_inner-->
+                            <div class="layer_inner">
+                                <table class="board_table board_write">
+								 <caption>문서관리 팝업</caption>
+								  <colgroup>
+									  <col style="width:25%">
+									  <col>
+								  </colgroup>
+								   <tr>
+									   <th scope="row">
+									   <label for="meetingRoom">회의실
+									   <span class="star">*</span></label>
+									   </th>
+									   <td class="line t_left ">
+									   <div class="select_style1">
+										   <select class="white_select w200" id="meetingRoom" name="meetingRoom">
+										   	<option>회의실을 선택하세요</option>
+										   </select>
+										   </div>
+									   </td>
+								   </tr>
+								   <tr>
+									   <th scope="row">
+										   <label for="reservation">예약일시 <span class="star">*</span></label>
+									   </th>
+									   <td class="line">
+										   <div class="calender_list sub_calender">
+                                        <div class="calender_box">
+                                            <input type="text" id="reservation" name="reservation">
+                                            <label class="calender_btn" for="calender">달력보기</label>
+                                        </div>
+                                        <div class="calender_select">
+                                        <select class="white_select h32 f_14">
+                                            <option>00시</option>
+                                           <option>01시</option>
+                                           <option>02시</option>
+                                           <option>03시</option>
+                                           <option>04시</option>
+                                           <option>05시</option>
+                                           <option>06시</option>
+                                           <option>07시</option>
+                                           <option>08시</option>
+                                           <option selected>09시</option>
+                                           <option>10시</option>
+                                           <option>11시</option>
+                                           <option>12시</option>
+                                            <option>13시</option>
+                                            <option>14시</option>
+                                            <option>15시</option>
+                                            <option>16시</option>
+                                            <option>17시</option>
+                                            <option>18시</option>
+                                            <option>19시</option>
+                                            <option>20시</option>
+                                            <option>21시</option>
+                                            <option>22시</option>
+                                            <option>23시</option>
+                                            <option>24시</option>
+                                        </select>
+                                        </div>
+                                        <div class="calender_select">
+											<select class="white_select h32 f_14">
+												<option selected>00분</option>
+												<option>30분</option>
+											</select>
+                                        </div>
+                                        <div>~</div>
+                                        <div class="calender_box">
+                                            <input type="text" id="calender02" name="calender02">
+                                            <label class="calender_btn" for="calender02">달력보기</label>
+                                        </div>
+                                        <div class="calender_select">
+											<select class="white_select h32 f_14">
+												<option>00시</option>
+											   <option>01시</option>
+											   <option>02시</option>
+											   <option>03시</option>
+											   <option>04시</option>
+											   <option>05시</option>
+											   <option>06시</option>
+											   <option>07시</option>
+											   <option>08시</option>
+											   <option selected>09시</option>
+											   <option>10시</option>
+											   <option>11시</option>
+											   <option>12시</option>
+												<option>13시</option>
+												<option>14시</option>
+												<option>15시</option>
+												<option>16시</option>
+												<option>17시</option>
+												<option>18시</option>
+												<option>19시</option>
+												<option>20시</option>
+												<option>21시</option>
+												<option>22시</option>
+												<option>23시</option>
+												<option>24시</option>
+											</select>
+                                        </div>
+                                        <div class="calender_select">
+											<select class="white_select h32 f_14">
+												<option selected>00분</option>
+												<option>30분</option>
+											</select>
+                                        </div>
+                                    </div>
+									   </td>
+								   </tr>
+								   <tr>
+								   	<th>신청자</th>
+								   	<td class="t_left">류정아 주무관 (행정지원팀)</td>
+								   </tr>
+								   <tr>
+								   	<th>상태</th>
+								   	<td class="t_left">신청</td>
+								   </tr>
+								   <tr>
+								   	<th>
+								   		<label for="purpose">회의목적 <span class="star">*</span></label>
+								   	</th>
+								   	<td>
+										<input type="text" class="w_p100 white_input" id="purpose" name="purpose"> 
+									</td>
+								   </tr>
+								   <tr>
+								   	<th>
+								   		<label for="contents">회의내용</label>
+								   	</th>
+								   	<td>
+								   		<textarea class="textarea" id="contents" name="contents"></textarea>
+								   	</td>
+								   </tr>
+								   <tr>
+								   	<th><label for="">참석자</label></th>
+								   	<td class="t_left">
+								   		<a href="#" class="sub_btn3 btn_navy">참석자 선택</a>
+								   		<div class="border">
+								   			<ul>
+								   				<li>류정아 주문관</li>
+								   			</ul>
+								   		</div>
+								   	</td>
+								   </tr>
+								   <tr class="post_file">
+								   	<th>
+								   		<label for="">첨부파일</label>
+								   	</th>
+								   	<td>
+								   		  
+                                    <div class="find_file">
+                                        <a href="#" class="file_btn">파일찾기</a>
+                                        <span class="f_13">
+                                            파일의 용량이 10M byte 이하만 업로드 가능합니다. (0 Byte)
+                                        </span>
+                                    </div>
+                                    <!--//upload-->
+                                   <div class="upload">
+                                     	<div class="upload_list">
+                                     		<ul>
+												<li><a href="#none">업무요청파일1.hwp</a><span>(10 Byte)</span></li>
+												<li><a href="#none">업무요청파일2.hwp</a><span>(10 Byte)</span></li>
+												<li><a href="#none">업무요청파일3.hwp</a><span>(10 Byte)</span></li>
+                                     		</ul>
+                                     	</div>
+                                   </div><!--//upload-->
+                                    <a href="#" class="del_btn">삭제</a>
+                                </td>
+								   </tr>
+								   
+							   </table>
+                            </div>
+                            <div class="btn_center mg10">
+                            	<a href="#" class="sub_btn btn_red center">예약</a>
+                            	<a href="#" class="sub_btn btn_black center">닫기</a>
+                            </div>
+                            <!--//layer_inner-->
+                        </div>
+                        <!--//layer_popup-->
+			</div>
+			<!--container-->
+		</div>
+		<!--//wrap-->
+	</div>
+	<!--//sub_wrap-->
+
+	<!--#footer-->
+	<footer id="footer">
+		<div class="wrap">
+			<p class="left">COPYRIGHT(C) 2020 GWANGYANG BAY AREA FREE ECONOMIC ZONE AUTHORITY. ALL RIGHTS RESERVED.</p>
+			<ul class="right">
+				<li>최종로그인 : 2019.12.13 10:12.23</li>
+				<li>최종 IP : 123.456.789.012</li>
+			</ul>
+		</div>
+	</footer>
+	<!--//#footer-->
+</body>
+
+</html>

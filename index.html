@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=1920, user-scalable=yes">
+	<title>광양만권경제자유구역청</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link type="text/css" rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/selectordie.css">
+	<link rel="stylesheet" href="css/jquery.scrollbar.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/selectordie.js"></script>
+	<script src="js/html5.js"></script>
+	<script src="js/run.js"></script>
+	<script src="js/jquery.scrollbar.min.js"></script>
+	<!--[if lte IE 8]> 
+	<link rel="stylesheet" href="css/ie8.css">
+	<![endif]-->
+	<!--[if lte IE 8]> 
+    <script src="js/selectivizr-min.js"></script>
+<![endif]-->
+    <!--[if lte IE 8]> 
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+    <!--[if lte IE 8]> <script src="js/placeholder.js"></script>
+    
+    <![endif]-->
+    <script src="js/PIE.js"></script>
+    <script>
+$(function() {
+    $(".main_cont .wrap").sortable();
+});
+	</script>
+</head>
+<body>
+<div class="boxCircle"></div>
+	<!--top_open-->
+	<div class="top_open">
+		<a href="#">
+			열기
+		</a>
+	</div>
+	<!--top_open-->
+	<!--top_setting-->
+	<div class="top_setting">
+		<!--wrap-->
+		<div class="wrap">
+			<!--top_setting_left-->
+			<ul class="top_setting_left">
+				<li>
+					<a href="#"><span class="item01"></span>일정</a>
+				</li>
+				<li>
+					<a href="#"><span class="item02"></span>설문조사</a>
+				</li>
+				<li>
+					<a href="#"><span class="item03"></span>도서신청</a>
+				</li>
+				<li>
+					<a href="#"><span class="item04"></span>메모</a>
+				</li>
+				<li>
+					<a href="#"><span class="item05"></span>조직도</a>
+				</li>
+				<li>
+					<a href="#"><span class="item06"></span>도움말</a>
+				</li>
+			</ul>
+			<!--//top_setting_left-->
+			<!--top_setting_right-->
+			<ul class="top_setting_right">
+				<li>
+					<div class="wrap-drop" id="noble-gases">
+						<span class="drop_active_txt">예약관리 (<span class="blue">999</span>건)</span>
+						<ul class="drop">
+							<li class="selected"><a>예약관리 (<span class="blue">999</span>건)</a></li>
+							<li><a>예약관리 (<span class="blue">12</span>건)</a></li>
+							<li><a>예약관리 (<span class="blue">5</span>건)</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<span class="item"></span>
+						메인화면설정
+					</a>
+				</li>
+			</ul>
+			<!--top_setting_right-->
+		</div>
+		<!--//wrap-->
+	</div>
+	<!--//top_setting-->
+	<!--#header-->
+	<header id="header">
+		<!--wrap-->
+		<div class="wrap">
+			<h1 class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="광양만권경제자유구역청">
+				</a>
+			</h1>
+			<!--gnb-->
+			<ul class="gnb">
+				<li><a href="#">전자결재</a></li>
+				<li><a href="#">복무관리</a></li>
+				<li><a href="#">ERP</a></li>
+				<li><a href="#">통합게시판</a></li>
+				<li><a href="#">투자유치현황판</a></li>
+				<li class="quick"><a href="#">빠른메뉴</a></li>
+			</ul>
+			<!--//gnb-->
+
+			<div class="member_wrap">
+				<p class="member"><span class="mbIco"></span>
+					<span class="blue bold">류정아 주무관</span>님 (행정지원팀)
+				</p>
+				<a href="#" class="btn green_btn">로그아웃</a>
+				<a href="#" class="btn blue_btn">개인정보수정</a>
+			</div>
+		</div>
+		<!--//wrap-->
+	</header>
+	<!--//#header-->
+	<!--top_notice-->
+	<div class="top_notice">
+		<div class="wrap">
+			<div class="tn_left">
+				<span class="tn_ico">공지사항</span>
+				<p class="tn_txt">광양만권경제자유구역청에서 추진하는 투자유치현황 보고회 일정에 대하여 알려드립니다.</p>
+			</div>
+			<div class="tn_right">
+				<form name="pop_form">
+					<div class="tn_notice">
+							<input type="checkbox" id="tn_notice" name="tn_notice">
+							<label for="tn_notice">오늘 그만보기</label>
+					</div>
+					<a href="#" class="close">닫기</a>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--//top_notice-->
+	<!--main_cont-->
+	<div class="main_cont">
+		<!--wrap-->
+		<div class="wrap">
+			<!--전자결재_ptl ptl01 ptl_blue-->
+			<div class="ptl ptl01 ptl_blue ptl_first" data-fileName="drag">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>전자결재</h3>
+						<div class="ptl_right">
+							<a href="#" class="reset mrr">새로고침</a>
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--ptl_lit-->
+					<div class="ptl_lit">
+						<a href="#" class="harf mr">
+							<dl>
+								<dt>결재</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+						<a href="#" class="harf">
+							<dl>
+								<dt>발송대기</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+						<a href="#" class="harf mr">
+							<dl>
+								<dt>공람</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+						<a href="#" class="harf">
+							<dl>
+								<dt>접수</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+						<a href="#" class="harf mr">
+							<dl>
+								<dt>메모</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+						<a href="#" class="harf">
+							<dl>
+								<dt>자료취합</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+						<a href="#" class="all">
+							<dl>
+								<dt>처리할 복무</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+						<a href="#" class="harf mr">
+							<dl>
+								<dt>내부메일</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+						<a href="#" class="harf">
+							<dl>
+								<dt>공직메일</dt>
+								<dd>
+									<span class="yellow">999</span>건
+								</dd>
+							</dl>
+						</a>
+					</div>
+					<!--ptl_lit-->
+				</div>
+				<!--ptl_inner-->
+			</div>
+			<!--//전자결재_ptl ptl01 ptl_blue-->
+
+
+			<!--처리할 문서_ptl ptl02 ptl_white->-->
+			<div class="ptl ptl02 ptl_white">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>처리할 문서</h3>
+						<div class="ptl_right">
+							<a href="#" class="reset mrr">새로고침</a>
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--bullet_list-->
+					<ul class="bullet_list board_list">
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+					</ul>
+					<!--//bullet_list-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--//처리할 문서_ptl ptl02 ptl_white-->
+
+			<!--처리할 메모보고 _ptl ptl02 ptl_white-->
+			<div class="ptl ptl02 ptl_white">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>처리할 메모보고</h3>
+						<div class="ptl_right">
+							<a href="#" class="reset mrr">새로고침</a>
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--bullet_list-->
+					<ul class="bullet_list board_list">
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<img src="images/new_icon.png" alt="새로운 게시글" class="new">
+							<div class="list_right">
+								<span class="date">2019.12.13</span>
+							</div>
+						</li>
+					</ul>
+					<!--//bullet_list-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--//처리할 메모보고 _ptl ptl02 ptl_white-->
+
+			<!--ptl ptl01 ptn_two-->
+			<div class="ptl ptl01 ptn_two ptl_last">
+				<!--직원조회 _ ptl_child-->
+				<div class="ptl_child ptl_white">
+					<!--ptl_inner-->
+					<div class="ptl_inner">
+						<!--ptl_top-->
+						<div class="ptl_top">
+							<h3>직원조회</h3>
+							<div class="ptl_right">
+								<a href="#" class="btn_blue btn">조직도</a>
+								<a href="#" class="btn_green btn">전남도청 조직도</a>
+							</div>
+						</div>
+						<!--//ptl_top-->
+						<div class="ptl_search">
+							<label for="ptl_srh_slc" class="hide">검색조건선택</label>
+							<select name="ptl_srh_slc" id="ptl_srh_slc" class="gray_select">
+								<option>통합검색</option>
+								<option>통합검색</option>
+								<option>통합검색</option>
+							</select>
+							<div class="ptl_srh_box">
+								<input type="text" placeholder="검색어를 입력하세요" id="search_member" name="search_member"><label for="search_member" class="hide">검색어</label>
+								<a href="#" class="sch_smit">검색</a>
+							</div>
+
+						</div>
+					</div>
+					<!--//ptl_inner-->
+				</div>
+				<!--//직원조회 _ ptl_child-->
+				<!--오늘의 당직 _ ptl_child-->
+				<div class="ptl_child ptl_white">
+					<!--ptl_inner-->
+					<div class="ptl_inner">
+						<!--ptl_top-->
+						<div class="ptl_top mb">
+							<h3>오늘의 당직</h3>
+							<div class="ptl_right">
+								<a href="#" class="more">더보기</a>
+							</div>
+						</div>
+						<!--//ptl_top-->
+						<!--ptl_watch_wrap-->
+						<div class="ptl_watch_wrap">
+							<!--ptl_watch-->
+							<div class="ptl_watch">
+								<div class="ptl_watch_today">
+									<a href="#" class="prev">이전</a>
+									<p class="today_txt">2019.12.18 (수)</p>
+									<a href="#" class="next">다음</a>
+								</div>
+								<p class="ptl_watch_person">
+									홍길동 주무관(행정지원팀)
+								</p>
+							</div>
+							<!--//ptl_watch-->
+						</div>
+						<!--//ptl_watch_wrap-->
+					</div>
+					<!--//ptl_inner-->
+				</div>
+				<!--//오늘의 당직 _ ptl_child-->
+			</div>
+			<!--ptl ptl01 ptn_two-->
+
+			<!--바로가기 서비스 _ ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_gray ptl_first">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>바로가기 서비스</h3>
+					</div>
+					<!--//ptl_top-->
+					<!--quick_service-->
+					<div class="quick_service">
+						<ul>
+							<li>
+								<a href="#"> <span class="item01"></span>
+									문서작성</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="item02"></span>
+									문서등록대장</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">
+									<span class="item03"></span>
+									메모작성</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="item04"></span>
+									초과근무신청</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">
+									<span class="item05"></span>
+									출장신청
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="item06"></span>
+									자원예약
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">
+									<span class="item07"></span>
+									시도행정포털
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="item08"></span>
+									공직자메일
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">
+									<span class="item09"></span>
+									광양청홈페이지
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="item10"></span>
+									자치법규
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!--quick_service-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--//바로가기 서비스 _ ptl ptl01 ptl_white-->
+
+			<!--공지사항 탭 _ ptl ptl02 ptl_white-->
+			<div class="ptl ptl03 ptl_white">
+				<div class="ptl_tabs">
+					<ul class="tabs">
+						<li><a href="#tab1">공지사항</a></li>
+						<li><a href="#tab2">경조사</a></li>
+						<li><a href="#tab3">인사알림</a></li>
+						<li><a href="#tab4">언론보도</a></li>
+						<li><a href="#tab5">청공유방</a></li>
+						<li><a href="#tab6">월간업무계획</a></li>
+						<li><a href="#tab7">투자유치자료실</a></li>
+						<li><a href="#tab8">일반자료실</a></li>
+					</ul>
+					<div class="ptl_right">
+						<a href="#" class="reset mrr">새로고침</a>
+						<a href="#" class="more">더보기</a>
+					</div>
+				</div>
+				<!--tabs-->
+				<!--tab_container-->
+				<div class="tab_container">
+					<!--ptl_inner-->
+					<div class="ptl_inner">
+						<!--tab1-->
+						<div id="tab1" class="tab_content">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab1-->
+
+						<!--tab2-->
+						<div id="tab2" class="tab_content">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab2-->
+
+						<!--tab3-->
+						<div id="tab3" class="tab_content">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab3-->
+
+						<!--tab4-->
+						<div id="tab4" class="tab_content">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab4-->
+
+						<!--tab5-->
+						<div id="tab5" class="tab_content">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab5-->
+
+						<!--tab6-->
+						<div id="tab6" class="tab_content">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab6-->
+
+						<!--tab7-->
+						<div id="tab7" class="tab_content">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab7-->
+
+
+						<!--tab8-->
+						<div id="tab8" class="tab_content">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date mrr">홍길동 / 행정지원팀</span>
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab8-->
+
+
+					</div>
+					<!--//ptl_inner-->
+				</div>
+			</div>
+			<!--//공지사항 탭 _ptl ptl02 ptl_white-->
+
+			<!--나의 즐겨찾기 _ ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_white ptl_last">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>나의 즐겨찾기</h3>
+						<div class="ptl_right">
+							<a href="#" class="setting mrr">설정</a>
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--ptl_favorite-->
+					<div class="ptl_favorite">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="images/ico_health.png" alt="국민건강">
+									<span>국민건강</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/ico_cheongbaegli.png" alt="청백리">
+									<span>청백리</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/ico_nalajangteo.png" alt="나라장터">
+									<span>나라장터</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/ico_naver.png" alt="네이버">
+									<span>네이버</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/ico_daum.png" alt="다음">
+									<span>다음</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/ico_gys.png" alt="광양시청">
+									<span>광양시청</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!--//ptl_favorite-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--//나의 즐겨찾기 _ ptl ptl01 ptl_white-->
+
+			<!--나의 복무현황 _ ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_white ptl_first">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>나의 복무현황</h3>
+						<div class="ptl_right">
+							<a href="#" class="reset mrr">새로고침</a>
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--phl_status-->
+					<div class="phl_status">
+						<!--phl_status_article-->
+						<div class="phl_status_article">
+							<p>월 초과근무시간</p>
+							<div class="phl_graph">
+								<img src="images/phl_graph_img1.jpg" alt="그래프1">
+							</div>
+							<span class="sky">
+								42시간
+							</span>
+						</div>
+						<!--//phl_status_article-->
+						<!--phl_status_article-->
+						<div class="phl_status_article">
+							<p>연가일수</p>
+							<div class="phl_graph">
+								<img src="images/phl_graph_img2.jpg" alt="그래프2">
+							</div>
+							<span class="blue">
+								5일
+							</span>
+						</div>
+						<!--//phl_status_article-->
+					</div>
+					<!--//phl_status-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--나의 복무현황 _ ptl ptl01 ptl_white-->
+
+			<!--오늘의 주요행사 _ ptl ptl02 ptl_white-->
+			<div class="ptl ptl02 ptl_white">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>오늘의 주요행사</h3>
+						<div class="ptl_right">
+							<a href="#" class="btn_green btn mrr v-top">청장일정 보기</a>
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+
+					<!--ptl_event_wrap-->
+					<div class="ptl_event_wrap">
+						<!--ptl_event-->
+						<div class="ptl_event">
+							<div class="ptl_event_today">
+								<a href="#" class="prev">이전</a>
+								<p class="today_txt">2019.12.18 (수)</p>
+								<a href="#" class="next">다음</a>
+							</div>
+							<div class="ptl_event_list scrollbar-inner">
+								<ul class="bullet_list">
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													09:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													09:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													10:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													11:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													12:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													12:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													12:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													12:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<div class="left">
+												<p class="time">
+													12:00
+												</p>
+												<p class="txt">메일확인 부탁드립니다.</p>
+											</div>
+											<div class="right">
+												<p>청장실</p>
+												<p>기획예산팀</p>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--ptl_event_wrap-->
+					</div>
+					<!--//오늘의 주요행사 _ ptl_event_wrap-->
+
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--//ptl ptl01 ptl_white-->
+
+			<!--오늘의 할일 _ ptl ptl02 ptl_white-->
+			<div class="ptl ptl02 ptl_white">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>오늘의 할일</h3>
+					</div>
+					<!--//ptl_top-->
+					<!--bullet_list-->
+					<ul class="bullet_list board_list today_list">
+						<li>
+							<a href="#">
+								<strong>[결재]</strong>결재문서가 도착하였습니다.
+							</a>
+							<div class="list_right">
+								<p class="value deep_gray">대기</p>
+							</div>
+						</li>
+						<li>
+							<a href="#"><strong>[결재]</strong>결재문서가 도착하였습니다.
+							</a>
+							<div class="list_right">
+								<p class="value line_red">예약중</p>
+							</div>
+						</li>
+						<li>
+							<a href="#"><strong>[결재]</strong>결재문서가 도착하였습니다.
+							</a>
+							<div class="list_right">
+								<p class="value line_blue">진행중</p>
+							</div>
+						</li>
+						<li>
+							<a href="#"><strong>[결재]</strong>결재문서가 도착하였습니다.
+							</a>
+							<div class="list_right">
+								<p class="value line_blue">신청중</p>
+							</div>
+						</li>
+						<li>
+							<a href="#"><strong>[결재]</strong>결재문서가 도착하였습니다.
+							</a>
+							<div class="list_right">
+								<p class="value gray">예정</p>
+							</div>
+						</li>
+					</ul>
+					<!--//bullet_list-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--//오늘의 할일 _ ptl ptl02 ptl_white-->
+
+			<!--간부재실현황 _ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_white ptl_last">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>간부재실현황</h3>
+						<div class="ptl_right">
+							<a href="#" class="reset mrr">새로고침</a>
+							<a href="#" class="setting">설정</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--ptl_cadre_wrap-->
+					<div class="ptl_cadre_wrap">
+						<div class="ptl_cadre_box">
+							<a class="ptl_cadre_article ptl_cadre01" href="#cadre_speech01">
+								<p class="value blue">재실</p>
+								<img src="images/cadre_01.png" alt="청장">
+								<p class="txt">청장</p>
+							</a>
+							<a class="ptl_cadre_article ptl_cadre02" href="#cadre_speech02">
+								<p class="value gray">부재</p>
+								<img src="images/cadre_02.png" alt="청장">
+								<p class="txt">본부장</p>
+							</a>
+							<a class="ptl_cadre_article ptl_cadre03" href="#cadre_speech03">
+								<p class="value green">출장</p>
+								<img src="images/cadre_03.png" alt="부장">
+								<p class="txt">부장</p>
+							</a>
+						</div>
+						<div class="cadre_speech" id="cadre_speech01">
+							<p class="date">10.22 ~ 10.24</p>
+							<p class="bullet">해외 출장으로 인한 부재</p>
+						</div>
+						<div class="cadre_speech" id="cadre_speech02">
+							<p class="date">10.22 ~ 10.24</p>
+							<p class="bullet">해외 출장으로 인한 부재</p>
+						</div>
+						<div class="cadre_speech" id="cadre_speech03">
+							<p class="date">10.22 ~ 10.24</p>
+							<p class="bullet">해외 출장으로 인한 부재</p>
+						</div>
+					</div>
+					<!--//ptl_cadre_wrap-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--//간부재실현황 _ ptl ptl01 ptl_white-->
+
+			<!--회의실예약 _ ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_white ptl_first">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>회의실예약</h3>
+						<div class="ptl_right">
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--ptl_calender_wrap-->
+					<div class="ptl_calender_wrap">
+						<div class="ptl_calender">
+							<h5>시작일시</h5>
+							<div class="ptl_calender_list">
+								<div class="calender_box">
+									<input type="text" id="meeting_01" name="meeting_01">
+									<label class="calender_btn" for="meeting_01">달력보기</label>
+								</div>
+								<select class="white_select h24 ptl_m">
+									<option>10시</option>
+									<option>10시</option>
+									<option>10시</option>
+									<option>10시</option>
+								</select>
+								<select class="white_select h24">
+									<option>30분</option>
+								</select>
+							</div>
+						</div>
+						<div class="ptl_calender">
+							<h5>종료일시</h5>
+							<div class="ptl_calender_list">
+								<div class="calender_box">
+									<input type="text" id="meeting_02" name="meeting_02">
+									<label class="calender_btn" for="meeting_02">달력보기</label>
+								</div>
+								<select class="white_select h24">
+									<option>10시</option>
+									<option>10시</option>
+									<option>10시</option>
+									<option>10시</option>
+								</select>
+								<select class="white_select h24">
+									<option>30분</option>
+								</select>
+							</div>
+						</div>
+						<a href="#" class="m_btn">회의실 검색</a>
+					</div>
+					<!--//ptl_calender_wrap-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--회의실예약 _ ptl ptl01 ptl_white-->
+
+			<!--차량예약 _ ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_white">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>차량예약</h3>
+						<div class="ptl_right">
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--ptl_calender_wrap-->
+					<div class="ptl_calender_wrap">
+						<div class="ptl_calender">
+							<h5>시작일시</h5>
+							<div class="ptl_calender_list">
+								<div class="calender_box">
+									<input type="text" id="car_01" name="car_01">
+									<label class="calender_btn" for="car_01">달력보기</label>
+								</div>
+								<select class="white_select h24">
+									<option>10시</option>
+									<option>10시</option>
+									<option>10시</option>
+									<option>10시</option>
+								</select>
+								<select class="white_select h24">
+									<option>30분</option>
+								</select>
+							</div>
+						</div>
+						<div class="ptl_calender">
+							<h5>종료일시</h5>
+							<div class="ptl_calender_list">
+								<div class="calender_box">
+									<input type="text" id="car_02" name="car02">
+									<label class="calender_btn" for="car_02">달력보기</label>
+								</div>
+								<select class="white_select h24">
+									<option>10시</option>
+									<option>10시</option>
+									<option>10시</option>
+									<option>10시</option>
+								</select>
+								<select class="white_select h24">
+									<option>30분</option>
+								</select>
+							</div>
+						</div>
+						<a href="" class="m_btn">차량 검색</a>
+					</div>
+					<!--//ptl_calender_wrap-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--차량예약 _ ptl ptl01 ptl_white-->
+
+
+			<!--게시판 탭 _ ptl ptl02 ptl_white-->
+			<div class="ptl ptl02 ptl_white">
+				<div class="ptl_tabs">
+					<ul class="tabs2">
+						<li><a href="#tab9">다운로드</a></li>
+						<li><a href="#tab10">FAQ</a></li>
+					</ul>
+					<div class="ptl_right">
+						<a href="#" class="reset mrr">새로고침</a>
+						<a href="#" class="more">더보기</a>
+					</div>
+				</div>
+				<!--tabs-->
+				<!--tab_container-->
+				<div class="tab_container">
+					<!--ptl_inner-->
+					<div class="ptl_inner">
+						<!--tab10-->
+						<div id="tab10" class="tab_content2">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab9-->
+						<!--tab9-->
+						<div id="tab9" class="tab_content2">
+							<!--bullet_list-->
+							<ul class="bullet_list board_list">
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+								<li>
+									<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+									</a>
+									<div class="list_right">
+										<span class="date">2019.12.13</span>
+									</div>
+								</li>
+							</ul>
+							<!--//bullet_list-->
+						</div>
+						<!--//tab10-->
+					</div>
+					<!--//ptl_inner-->
+				</div>
+				<!--//tab_container-->
+			</div>
+			<!--게시판 탭 _ ptl ptl02 ptl_white-->
+
+			<!--설문조사 _ ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_white">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>설문조사</h3>
+						<div class="ptl_right">
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--bullet_list-->
+					<ul class="bullet_list board_list today_list">
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<div class="list_right">
+								<p class="value line_blue">진행</p>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<div class="list_right">
+								<p class="value blue">완료</p>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<div class="list_right">
+								<p class="value blue">완료</p>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<div class="list_right">
+								<p class="value blue">완료</p>
+							</div>
+						</li>
+						<li>
+							<a href="#">기획관련 업무협조 요청에 대한 피드백을 등록하시기 바랍니다.
+							</a>
+							<div class="list_right">
+								<p class="value blue">완료</p>
+							</div>
+						</li>
+					</ul>
+					<!--bullet_list-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--설문조사 _ ptl ptl01 ptl_white-->
+
+			<!--공동서식 _ ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_white ptl_last">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>공동서식</h3>
+						<div class="ptl_right">
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--format_search-->
+					<div class="format_search">
+						<p class="txt">아래 검색창에 자료명을 입력하세요.</p>
+						<input type="text" placeholder="자료명 입력" id="search_cont" name="search_cont">
+						<a href="#" class="m_btn">자료 검색</a><label for="search_cont" class="hide">자료검색</label>
+						<p class="refer">* 검색한 자료는 바로 다운받으실 수 있습니다.</p>
+					</div>
+					<!--//format_search-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--공동서식 _ ptl ptl01 ptl_white-->
+
+
+			<!--포틀릿 추가 _ptl ptl01 ptl_add-->
+
+			<!--투자유치현황 _ ptl ptl02 ptl_white-->
+			<div class="ptl ptl02 ptl_white ptl_first">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top invest_top">
+						<h3>투자유치현황</h3>
+						<div class="ptl_right">
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--invest_wrap-->
+					<div class="invest_wrap">
+						<div class="invest_txt_wrap">
+							<div class="invest_txt">
+								<p class="invest_refer">(단위:억원, 2017.10)</p>
+								<span class="invest_value_sky">
+									연간계획
+								</span>
+								<span class="invest_value_red">
+									누계실적
+								</span>
+							</div>
+						</div>
+						<div class="invest_wrap_graph">
+							<img src="images/graph_img.jpg" alt="그래프">
+						</div>
+					</div>
+					<!--//invest_wrap-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--투자유치현황 _ ptl ptl02 ptl_white-->
+
+			<!--도서대여 _ ptl ptl01 ptl_white-->
+			<div class="ptl ptl01 ptl_white">
+				<!--ptl_inner-->
+				<div class="ptl_inner">
+					<!--ptl_top-->
+					<div class="ptl_top">
+						<h3>도서대여</h3>
+						<div class="ptl_right">
+							<a href="#" class="more">더보기</a>
+						</div>
+					</div>
+					<!--//ptl_top-->
+					<!--book_rental-->
+					<div class="book_rental">
+						<div class="book_rental_txt">
+							<p class="left">도서대여 현황</p>
+							<p class="right red ">3 건</p>
+						</div>
+						<div class="book_rental_icon">
+							<a href="#" class="blue">
+								<img src="images/ico_book01.png" alt="">
+								<span>대여하기</span>
+							</a>
+							<a href="#" class="orange">
+								<img src="images/ico_book02.png" alt="">
+								<span>반납하기</span>
+							</a>
+							<a href="#" class="gray">
+								<img src="images/ico_book03.png" alt="">
+								<span>목록보기</span>
+							</a>
+						</div>
+					</div>
+					<!--//book_rental-->
+				</div>
+				<!--//ptl_inner-->
+			</div>
+			<!--도서대여 _ ptl ptl01 ptl_white-->
+
+			<!--
+            <div class="ptl ptl01 ptl_white">
+                <div class="ptl_inner">
+                    <div class="ptl_top mb2">
+                        <h3>청백e-모니터링</h3>
+                        <div class="ptl_right">
+                            <a href="#" class="more">더보기</a>
+                        </div>
+                    </div>
+                    <table class="ptl_table">
+                        <colgroup>
+                            <col style="width: 55px" />
+                            <col />
+                            <col />
+                        </colgroup>
+                        <caption>청백e-모니터링에 대한 표입니다.</caption>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>미처리</th>
+                                <th>미승인</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border-right">
+                                    항목1
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="border-right">
+                                    항목2
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="border-right">
+                                    항목3
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="border-right">
+                                    항목4
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            청백e-모니터링-->
+
+			<!--포틀릿 추가 _ptl ptl01 ptl_add-->
+			<div class="ptl ptl01 ptl_add">
+				<a href="#">
+					<p>ADD <br />
+						PORTELT</p>
+				</a>
+			</div>
+			<!--포틀릿 추가 _ptl ptl01 ptl_add-->
+
+			<!--포틀릿 추가 _ptl ptl01 ptl_add-->
+			<div class="ptl ptl01 ptl_add">
+				<a href="#">
+					<p>ADD <br />
+						PORTELT</p>
+				</a>
+			</div>
+			<!--포틀릿 추가 _ptl ptl01 ptl_add-->
+
+			<!--포틀릿 추가 _ptl ptl01 ptl_add-->
+			<div class="ptl ptl01 ptl_add ptl_last">
+				<a href="#">
+					<p>ADD <br />
+						PORTELT</p>
+				</a>
+			</div>
+			<!--포틀릿 추가 _ptl ptl01 ptl_add-->
+
+		</div>
+		<!--//wrap-->
+	</div>
+	<!--main_cont-->
+
+	<!--#footer-->
+	<footer id="footer">
+		<div class="wrap">
+			<p class="left">COPYRIGHT(C) 2020 GWANGYANG BAY AREA FREE ECONOMIC ZONE AUTHORITY. ALL RIGHTS RESERVED.</p>
+			<ul class="right">
+				<li>최종로그인 : 2019.12.13 10:12.23</li>
+				<li>최종 IP : 123.456.789.012</li>
+			</ul>
+		</div>
+	</footer>
+	<!--//#footer-->
+</body>
+
+</html>
