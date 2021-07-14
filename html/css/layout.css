@@ -484,7 +484,7 @@ img.v-mid{ vertical-align: top !important; margin-top: 4px; margin-right: 5px;}
 .board_table .privacy_img .none_img {display: block;width: 100%;background: url(../images/photo.png) no-repeat center;height: 100%;}
 
 /*layer_popup*/
-.layer_popup {background: #fff;border-radius: 10px;overflow: hidden;position: absolute;}
+.layer_popup {background: #fff;border-radius: 10px;overflow: hidden;position: absolute;z-index: 99999;}
 .layer_popup .layer_tit {padding:15px 20px;background: #c9e5f1;font-size: 18px;color: #333;font-weight: 500; position: relative;}
 .layer_popup .layer_tit .close{
 	background: url(../images/close2.png) no-repeat center right;
