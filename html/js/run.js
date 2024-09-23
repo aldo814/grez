@@ -33,9 +33,6 @@ DropDown.prototype = {
     }
 };
 
-$(function () {
-    
-});
 
 //tab
 $(document).ready(function() {  
