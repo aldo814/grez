@@ -34,17 +34,19 @@ DropDown.prototype = {
 };
 
 $(function () {
-    // create new variable for each menu
+    
+});
+
+//tab
+$(document).ready(function() {  
+
+            // create new variable for each menu
     var dd1 = new DropDown($('#noble-gases'));
     // var dd2 = new DropDown($('#other-gases'));
     $(document).click(function () {
         // close menu on document click
         $('.wrap-drop').removeClass('active');
     });
-});
-
-//tab
-$(document).ready(function() {
 
             //When page loads...
             $(".tab_content").hide(); //Hide all content
